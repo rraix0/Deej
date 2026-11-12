@@ -66,7 +66,7 @@ Example:
 
 ### Basic setup
 
-- **`port`** — serial port used by the Arduino. For example, `/dev/ttyUSB0`. Your device may use a different path, such as `/dev/ttyACM0`.
+- **`port`** — serial port used by the Arduino. For example, `/dev/ttyUSB0`. Check available UART devices connected to usb: `ls /dev/ttyUSB*`.
 - **`baud_rate`** — serial communication speed. It must match the baud rate used by the Arduino sketch.
 - **`count`** — number of connected potentiometers.
 - **`apps`** — application groups assigned to the potentiometers. Each nested list corresponds to one potentiometer, in order.

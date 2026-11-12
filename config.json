@@ -1,0 +1,13 @@
+{
+  "port": "/dev/ttyUSB0",
+  "baud_rate": "9600",
+  "count": 4,
+  "apps": [
+    ["_main"],
+    ["brave", "vivaldi", "zen"],
+    ["discord", "vesktop.bin"],
+    ["_other"]
+  ],
+  "reverse": true,
+  "read_delay": 10
+}
